@@ -65,7 +65,7 @@ languages.forEach(lang => {
                 return `service ${serviceName}("${translatedWords}")`;
             });
 
-            const outputFile = path.join(outputFolder, `${path.basename(inputFile, '.aqua')}_${lang}.aqua`);
+            const outputFile = path.join(outputFolder, `_${path.basename(inputFile, '.aqua')}_${lang}.aqua`);
             fs.writeFileSync(outputFile, translatedCode);
             console.log(`Translation for ${lang} saved to ${outputFile}`);
         })
