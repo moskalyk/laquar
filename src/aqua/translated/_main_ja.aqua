@@ -1,0 +1,16 @@
+aqua Main
+
+import "@fluencelabs/aqua-lib/builtin.aqua"
+import "@fluencelabs/aqua-lib/subnet.aqua"
+
+use "deals.aqua"
+use "hosts.aqua"
+import "services.aqua"
+
+export SteamService, GeographyPointService
+
+service SteamService("蒸気サービス"):
+    excite(water: i32) -> bool
+
+service GeographyPointService("地理ポイントサービス"):
+    treck(path: *[]i32) -> bool

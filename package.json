@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"laquar": "node src/compute/index.js",
+		"laquar:list": "node src/compute/languages.js"
+	},
+	"dependencies": {
+		"google-translate-api-browser": "^4.3.0"
+	}
+}

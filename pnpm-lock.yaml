@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  google-translate-api-browser:
+    specifier: ^4.3.0
+    version: 4.3.0
+
+packages:
+
+  /google-translate-api-browser@4.3.0:
+    resolution: {integrity: sha512-yTpZDfjLl67dvFWj7NZClISWg35i2v8L4vClLB5jbjkrJEOZrIqLzifTOaXQ71ibbo1mypNikJkItp7oDbYkMw==}
+    dev: false
